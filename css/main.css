@@ -52,6 +52,7 @@ body {
       background-size: 360px;
       background-position: top right; } }
   body::before {
+    z-index: -1;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -60,7 +61,7 @@ body {
     height: 100%;
     background-image: url(../images/bg-bottom.svg);
     background-repeat: no-repeat;
-    background-position: 10px 10px;
+    background-position: bottom left;
     background-size: 100%; }
     @media screen and (min-width: 62.375em) {
       body::before {
