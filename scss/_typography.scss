@@ -1,0 +1,24 @@
+.title {
+  font-size: $fs-32;
+}
+
+.card {
+  &__type {
+    font-size: $fs-18;
+  }
+  &__price {
+    font-size: $fs-72;
+    color: $c-gray-4;
+
+    span {
+      font-size: $fs-40;
+    }
+  }
+  &__features {
+  }
+  &__cta {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: $fs-12;
+  }
+}

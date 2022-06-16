@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Our Pricing</div>
+      <input id="toggle-pricing" type="checkbox" />
+      <label class="label annually" for="toggle-pricing">Annually</label>
+      <label class="label monthly" for="toggle-pricing">Monthly</label>
+      <div class="pricing">
+        <div class="card">
+          <div class="card__type">Basic</div>
+          <div class="card__price"><span>$</span></div>
+          <ul class="card__features">
+            <li>500GB Storage</li>
+            <li>2 Users Allowed</li>
+            <li>Send up to 3GB</li>
+          </ul>
+          <button class="card__cta">learn more</button>
+        </div>
+
+        <div class="card highlight">
+          <div class="card__type">Professional</div>
+          <div class="card__price"><span>$</span></div>
+          <ul class="card__features">
+            <li>1TB Storage</li>
+            <li>5 Users Allowed</li>
+            <li>Send up to 10GB</li>
+          </ul>
+          <button class="card__cta">learn more</button>
+        </div>
+
+        <div class="card">
+          <div class="card__type">Master</div>
+          <div class="card__price"><span>$</span></div>
+          <ul class="card__features">
+            <li>2TB Storage</li>
+            <li>10 Users Allowed</li>
+            <li>Send up to 20GB</li>
+          </ul>
+          <button class="card__cta">learn more</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Our Pricing Annually Monthly Basic &dollar;19.99 &dollar;199.99 500 GB
+    Storage 2 Users Allowed Send up to 3 GB Learn More Professional
+    &dollar;24.99 &dollar;249.99 1 TB Storage 5 Users Allowed Send up to 10 GB
+    Learn More Master &dollar;39.99 &dollar;399.99 2 TB Storage 10 Users Allowed
+    Send up to 20 GB Learn More -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
